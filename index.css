@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background: #282c34;
+  font-family: Arial, sans-serif;
+}
+
+.game-container {
+  position: relative;
+  border: 3px solid #fff;
+  margin: 30px auto;
+  background: skyblue;
+  overflow: hidden;
+}
+
+.player {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: yellow;
+  border-radius: 50%;
+}
+
+.pipe {
+  position: absolute;
+  width: 80px;
+  background: green;
+}
+
+.top-pipe {
+  top: 0;
+}
+
+.bottom-pipe {
+  position: absolute;
+}
+
+.score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.game-over {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  color: red;
+  font-weight: bold;
+}
